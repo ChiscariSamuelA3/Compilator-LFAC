@@ -1,0 +1,39 @@
+Variabile declarate in clasa persoana: 
+[int] [varsta] 
+[string] [nume] 
+
+Arrays declarate in clasa persoana: 
+<int > vec41[3] = { 3, 4, 5 }
+
+
+Variabile declarate global: 
+[int] [var1] 
+[char] [chr1] [=] [p] 
+[char] [chr2] [=] [p] 
+[string] [str] [=] ["text"] 
+
+Arrays declarate global: 
+<int > vec1[3] = { 3, 1, 8 }
+
+
+Variabile declarate local: 
+[float] [flt] [=] [1.20000] 
+[int] [cst1] [=] [9] 
+[bool] [varrr] [=] [TRUE] 
+[int] [a] [=] [6] 
+[int] [po] [=] [15] 
+[int] [var2] [=] [5] 
+[float] [flll] [=] [4.70000] 
+[int] [var3] [=] [1] 
+[int] [lol] [=] [6] 
+[float] [x] [=] [22.00000] 
+
+Arrays declarate local: 
+<int > matr[2][2] = 
+{
+  [2]    [5]  
+  [1]    [8]  
+}
+<int > vec2[10] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+
+

@@ -1,0 +1,23 @@
+Nu exista functii declarate in clasa persoana.
+
+
+Variabile declarate in functie 1: 
+[int] [r1] [=] [38] 
+[int] [u1] [=] [13] 
+
+Arrays declarate in functie 1: 
+<int > vecc21[3] = { 3, 4, 1 }
+
+
+Functie declarata 1:
+<void > functie_testA ::  char z1 . int t1 . string s1 .
+
+Variabile declarate in functie 2: 
+[int] [r2] [=] [7] 
+
+Nu exista arrays declarate in functie 2.
+
+Functie declarata 2:
+<void > functie_testA ::  char z2 . int t2 .
+
+

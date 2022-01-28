@@ -1,0 +1,85 @@
+clasa persoana 
+{
+	int varsta;
+	string nume;
+	int vec41[3]:={$3,$4,$5};
+};
+
+
+void functie_testA(char z1, int t1, string s1) 
+@
+        int r1 := 7;
+        r1 := r1 * 5 ++ 3;
+        int u1 := 13;
+        int vecc21[3]:={$3,$4,$1};
+@
+
+void functie_testA(char z2, int t2)
+@
+        int r2 := 7;
+@
+
+int var1;
+char chr1 := #p;
+char chr2 := chr1;
+string str := "text";
+
+int vec1[3] := {$3, $1, $8};
+
+start_main
+{
+	float flt := 1.2;
+	const int cst1 := 9;
+	bool varrr := TRUE;
+	int matr[2][2] := {$2, $5, $1, $8};
+
+	if(4<cst1) then { var1:=4; }
+	else { var1:=cst1; } end_if
+
+	int vec2[10];
+
+	int a := 5;
+
+	int po;
+	po := vec1[3] * 2 ++ 4 -- 5;
+
+	while(a>2) do{
+	a:= a -- 1;
+	po := vec1[3] * 2 ++ 4 -- 5;
+	}end_while
+
+	int var2:=5;
+	var2 := var2 ++ vec1[3];
+
+	for(1  & 4 & 1 )
+	start_for
+	{
+	a:=a++2;
+	var2:=10--5;
+	}end_for
+
+	float flll:=1.2;
+	
+	flll := 2.3 ++ flll * 2;
+
+	int var3 := 2;
+
+	var3 := var3 -- matr[2][1];
+
+	Print(value of expression (var3++5)*2--1 is:, (var3++5)*2--1);
+
+	int lol;
+	lol := var3 ++ 4 * 2 -- 3;
+
+	float x;
+	x := 1++(4++4)*3--3;
+
+	functie_testA(@chr1, @var1);
+	
+	Print(value of expression x++2 is: , x++2);
+
+	%persoana var6;
+
+
+}end_main
+

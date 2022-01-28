@@ -1,0 +1,7 @@
+start_main
+{
+	int x := 4;
+	Print(value of expression 2 * (3 ++ x) -- 1 is:, 2 * (3 ++ x) -- 1);
+
+}end_main
+
